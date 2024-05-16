@@ -1,6 +1,24 @@
-{
-    "type": "MultiPolygon",
-    "coordinates": [
-        
-    ]
-}
+[
+    {
+      "title": "Two Sum",
+      "pattern": "Arrays and Hashing",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Best Time to buy and sell stock",
+      "pattern": "Sliding Window",
+      "difficulty": "Easy"
+    },
+  {
+    "title": "Contains Duplicate",
+    "pattern": "Arrays and Hashing",
+    "difficulty": "Easy"
+  },
+  {
+    "title": "Product of Array Except Self",
+    "pattern": "Arrays and Hashing",
+    "difficulty": "Medium"
+  },
+  
+]
+

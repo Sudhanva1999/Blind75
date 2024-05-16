@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841A25F22BF5BEB3008A769A /* RandomIndexGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A25F12BF5BEB3008A769A /* RandomIndexGenerator.swift */; };
+		8494E3F82BF4323100B89B15 /* questionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 84FD4DAD2BF3AF8800C35AE1 /* questionData.json */; };
 		84FD4D982BF3023B00C35AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4D972BF3023B00C35AE1 /* AppDelegate.swift */; };
 		84FD4D9A2BF3023B00C35AE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4D992BF3023B00C35AE1 /* SceneDelegate.swift */; };
 		84FD4D9C2BF3023B00C35AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4D9B2BF3023B00C35AE1 /* ViewController.swift */; };
 		84FD4D9F2BF3023B00C35AE1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 84FD4D9E2BF3023B00C35AE1 /* Base */; };
 		84FD4DA12BF3023C00C35AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FD4DA02BF3023C00C35AE1 /* Assets.xcassets */; };
 		84FD4DA42BF3023C00C35AE1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 84FD4DA32BF3023C00C35AE1 /* Base */; };
+		84FD4DAC2BF3AF3600C35AE1 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD4DAB2BF3AF3600C35AE1 /* Questions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841A25F12BF5BEB3008A769A /* RandomIndexGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomIndexGenerator.swift; sourceTree = "<group>"; };
 		84FD4D942BF3023B00C35AE1 /* Blind75.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blind75.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD4D972BF3023B00C35AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FD4D992BF3023B00C35AE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		84FD4DA02BF3023C00C35AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FD4DA32BF3023C00C35AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FD4DA52BF3023C00C35AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FD4DAB2BF3AF3600C35AE1 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		84FD4DAD2BF3AF8800C35AE1 /* questionData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questionData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				84FD4D972BF3023B00C35AE1 /* AppDelegate.swift */,
 				84FD4D992BF3023B00C35AE1 /* SceneDelegate.swift */,
 				84FD4D9B2BF3023B00C35AE1 /* ViewController.swift */,
+				841A25F12BF5BEB3008A769A /* RandomIndexGenerator.swift */,
 				84FD4D9D2BF3023B00C35AE1 /* Main.storyboard */,
+				84FD4DAB2BF3AF3600C35AE1 /* Questions.swift */,
+				84FD4DAD2BF3AF8800C35AE1 /* questionData.json */,
 				84FD4DA02BF3023C00C35AE1 /* Assets.xcassets */,
 				84FD4DA22BF3023C00C35AE1 /* LaunchScreen.storyboard */,
 				84FD4DA52BF3023C00C35AE1 /* Info.plist */,
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8494E3F82BF4323100B89B15 /* questionData.json in Resources */,
 				84FD4DA12BF3023C00C35AE1 /* Assets.xcassets in Resources */,
 				84FD4DA42BF3023C00C35AE1 /* Base in Resources */,
 				84FD4D9F2BF3023B00C35AE1 /* Base in Resources */,
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FD4D9C2BF3023B00C35AE1 /* ViewController.swift in Sources */,
+				84FD4DAC2BF3AF3600C35AE1 /* Questions.swift in Sources */,
+				841A25F22BF5BEB3008A769A /* RandomIndexGenerator.swift in Sources */,
 				84FD4D982BF3023B00C35AE1 /* AppDelegate.swift in Sources */,
 				84FD4D9A2BF3023B00C35AE1 /* SceneDelegate.swift in Sources */,
 			);

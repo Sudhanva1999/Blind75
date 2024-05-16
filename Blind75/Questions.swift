@@ -7,6 +7,11 @@
 
 import Foundation
 
-struct Questions {
-    
+struct Questions: Codable {
+    var title: String
+    var pattern: String
+    var difficulty: String
 }
+
+
+
